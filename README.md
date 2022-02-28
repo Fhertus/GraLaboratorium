@@ -1,2 +1,2 @@
-# GraLaboratorium
-opis
+# GraLaboratoriumsdf
+fsdddgg
