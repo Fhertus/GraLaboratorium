@@ -1,2 +1,2 @@
 # GraLaboratorium
-opis
+opis i koniec
