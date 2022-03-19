@@ -17,9 +17,10 @@ public class Wes : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Df") == true && Input.GetKeyDown(KeyCode.E))
+        if (other.CompareTag("Player") == true && Input.GetKeyDown(KeyCode.E))
         {
-            Destroy(other.gameObject);
+            other.GetComponent<Sk>().points += 1;
+            Destroy(gameObject);
         }
     }
 }
