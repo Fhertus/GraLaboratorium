@@ -56,10 +56,28 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\WinArea.cs" />
-    <Compile Include="Assets\Wes.cs" />
-    <Compile Include="Assets\Sk.cs" />
-    <Compile Include="Assets\UIPlayerPoints.cs" />
+    <Compile Include="Assets\skrypty\WinArea.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Controller\CharacterControls.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\WallMovable.cs" />
+    <Compile Include="Assets\skrypty\UIHealthBar.cs" />
+    <Compile Include="Assets\skrypty\Wes2.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\MovableObs.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Controller\CameraManager.cs" />
+    <Compile Include="Assets\skrypty\War.cs" />
+    <Compile Include="Assets\skrypty\Wes4.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\FallPlat.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\SavePos.cs" />
+    <Compile Include="Assets\skrypty\Wes.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Pendulum.cs" />
+    <Compile Include="Assets\skrypty\Sk.cs" />
+    <Compile Include="Assets\skrypty\Wes3.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Rotator.cs" />
+    <Compile Include="Assets\skrypty\UIPlayerPoints.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\KillZone.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Bounce.cs" />
+    <Compile Include="Assets\skrypty\Wes1.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\FPSDisplay.cs" />
+    <Compile Include="Assets\skrypty\War2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -82,6 +100,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\NewSurfaceShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -669,6 +688,9 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
