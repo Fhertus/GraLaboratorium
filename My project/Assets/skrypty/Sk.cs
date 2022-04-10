@@ -10,7 +10,7 @@ public class Sk : MonoBehaviour
     public int points = 0;
     private Vector3 direction;
     public int health = 0;
-    public int maxHealth = 100;
+    public int maxHealth = 10;
 
     // Start is called before the first frame update
     void Start()
