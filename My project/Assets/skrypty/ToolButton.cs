@@ -6,35 +6,30 @@ using UnityEngine.UI;
 
 public class ToolButton : MonoBehaviour
 {
-
-    public Button button;
-
-    public void HandleMouseEnter()
-    {
-        if (button.IsInteractable())
-        {
-            transform.DOScale(Vector3.zero, 3f).SetEase(Ease.InBounce);
-        }
-    }
-    //private Transform[] _shapes;
-    // Start is called before the first frame update
+    public Sk player;
+    public Image healthbar;
+    private float _cycleLength = 2;
+   
     void Start()
     {
-        //foreach (Transform shape in _shapes) 
-        // {
-       
-       // transform.DOScale(Vector3.zero, 3f).SetEase(Ease.InBounce);
-       // }
-        
+        //transform.DOMove(new Vector3((float)-1.781, (float)2.385, (float)-4.584), _cycleLength).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
+            //transform.DOScale(new Vector3(3, 3, 3), 1f).SetLoops(-1, LoopType.Yoyo);
+
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+        //healthbar.fillAmount = (float)player.health / player.maxHealth;
         
     }
-    
-  
-    
+
+    /*  if (player.health < 10)
+        {
+            transform.DOScale(new Vector3(3, 3, 3), 1f) _cycleLength).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
+        }
+     }*/
+
 
 }
