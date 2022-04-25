@@ -529,7 +529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game titlo
+  m_text: NFS 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fdcc6eae057b79e4e952bab84376bbab, type: 2}
   m_sharedMaterial: {fileID: 3309583216278078305, guid: fdcc6eae057b79e4e952bab84376bbab, type: 2}

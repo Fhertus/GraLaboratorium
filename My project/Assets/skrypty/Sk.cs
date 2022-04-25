@@ -48,7 +48,24 @@ public class Sk : MonoBehaviour
     {
 
         controller.Move(movement * Time.fixedDeltaTime * speed);
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            fire();
+        }
 
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            notfire();
+        }
 
+    }
+   
+    void fire()
+    {
+        speed = 10f;
+    }
+    void notfire()
+    {
+        speed = 2.5f;
     }
 }
